@@ -1,0 +1,5 @@
+the shell scripts just runs from root's cron every minute to verify that the secure_logger.pl script hasn't stopped for any reason.  
+It then restarts it if it has stopped     
+
+CRON ENTRY:
+* * * * *    /root/bin/secure_logger.sh
